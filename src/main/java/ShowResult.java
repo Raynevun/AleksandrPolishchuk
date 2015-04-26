@@ -19,8 +19,8 @@ public class ShowResult {
         System.out.println(charList.toString());
         System.out.println(stringSet.toString());
         for (Character temp : stringSet) {
-            System.out.println("temp" + temp);
-            System.out.println(temp + ": " + Collections.frequency(charList, temp));
+          //  System.out.println("temp" + temp);
+          //  System.out.println(temp + ": " + Collections.frequency(charList, temp));
             redirect.put(temp, Collections.frequency(charList, temp));
 
         }
